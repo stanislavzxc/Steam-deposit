@@ -1,0 +1,267 @@
+body{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url(img/1614391515_17-p-temnii-igrovoi-fon-21.jpg);
+    /* background-color: purple; */
+    font-size: 1.5rem;
+}
+*{
+    box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+}  
+
+#main-body{
+    margin-left: 50px;
+}
+#header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 25;
+    width: 100%;
+    min-width: 100%;
+    overflow-x: hidden;
+    border: 2px solid white;
+}
+.p-margin{
+  margin: 20px;
+} 
+#main{
+    width: 100%;
+    margin-top: 30px;
+    max-width: 100%;
+    min-width: 100%;
+}
+.container{
+    margin-top: 50px;
+    border: 2px solid crimson;
+    border-radius: 15px;
+    width: 49%;
+    margin-left: 1%;
+}
+.btn{
+  border: 1px solid #605c5c;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 6px;
+  cursor: pointer;
+  font-size: 14px;
+  background: none;
+}
+#con{
+    margin-left: 30px;
+}
+.fast-price{
+  margin-top: 20px;
+}
+#pay-div{
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+}
+#pay-btn{
+     background: linear-gradient(88.64deg, #FF00E5 -30.46%, #8300FF 120.89%);
+    box-shadow: 0px 0px 50px rgba(200, 0, 255, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    width: 70%;
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+:root {
+    --mc1: #cc00ff;
+    --mc2: #7000ff;
+    --hc: #ddd;
+    --bc: #9ba0b8;
+    --hff: 'Heebo', sans-serif;
+    --bff: 'Nunito', sans-serif;
+}
+#check{
+  position: relative;
+  bottom: 20px;
+}
+h2{
+
+}
+p{
+    color: grey;
+    font-size: 1.3rem;
+}
+h1{
+    
+}
+h1,h2,p{
+  color: white;
+}
+.purple{
+    color: rgba(165, 55, 253);
+}
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 20px;
+    width: 70%;
+  }
+  .form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+  .form__field::placeholder {
+    color: transparent;
+  }
+  .form__field:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+  }
+  .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #9b9b9b;
+  }
+  .form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #11998e, #38ef7d);
+    border-image-slice: 1;
+  }
+  .form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #11998e;
+    font-weight: 700;
+  }
+  /* reset input */
+  .form__field:required, .form__field:invalid {
+    box-shadow: none;
+  }
+  /* demo */
+ 
+  #berries_1{
+    padding: 1.5rem;
+    background-color: rgba(245, 245, 245);
+    border-radius: 0.5rem;
+    accent-color: rgba(191, 85, 236);
+  }
+  input[type="checkbox"],
+  input[type="radio"]{
+	width: 1.5em;
+	height: 1.5em;
+	margin-right: 0.65rem;
+}
+
+ .fill:hover,
+.fill:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+.pulse:hover,
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+.close:hover,
+.close:focus {
+  box-shadow: inset -3.5em 0 0 0 var(--hover), inset 3.5em 0 0 0 var(--hover);
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.up:hover,
+.up:focus {
+  box-shadow: inset 0 -3.25em 0 0 var(--hover);
+}
+
+.slide:hover,
+.slide:focus {
+  box-shadow: inset 6.5em 0 0 0 var(--hover);
+}
+
+.offset {
+  box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+}
+.offset:hover, .offset:focus {
+  box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+}
+.raise {
+  --color: #ffa260;
+  --hover: #e5ff60;
+}
+
+button {
+  color: var(--color);
+  transition: 0.25s;
+}
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+code {
+  color: #e4cb58;
+  font: inherit;
+}
+.new_container {
+  /* background: linear-gradient(0.25turn, #2B1B3F, #331D4B, #421C55); */
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  border: 2px solid #C800FF;
+  padding: 30px;
+}
+#zxc{
+  position: absolute;
+  top: 0;
+  right: 50px;
+}
+input {
+  background-color: transparent; /* делаем фон прозрачным */
+  padding: 0; /* убираем отступы */
+  border: none; /* убираем границу */
+}
+
+input:focus {
+  background: none; /* убираем фон при фокусировке */
+}
+.form__field:focus{
+  background: none;
+}

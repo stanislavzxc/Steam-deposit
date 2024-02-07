@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="input.scss"> -->
+    <title>Пополнение steam</title>
+</head>
+<body>
+    <div id="main-body">
+        <!-- <header id="header">
+            <div>
+                <img src="" alt="">
+                <h2 id="logo">Логотип</h2>
+            </div>
+        </header> -->
+        <div id="main">
+            <div id="txt-top">
+                <h1>Пополнить баланс <span class="purple">STEAM</span></h1>
+                <p>Быстрое и недорогое пополнение ваших steam аккаунтов</p>
+            </div>
+        <div style="position: relative;">
+            <div class="container new_container">
+                <div id="con">
+                    <div class="form__group field">
+                        <input type="input" class="form__field" autocomplete="off" placeholder="Name" name="name" id='login' required />
+                        <label for="name" class="form__label">Логин</label>
+                    </div>
+                    <div class="form__group field">
+                        <input type="input" class="form__field" oninput="validateInput(event)" onpaste="return false;" autocomplete="off" maxlength="5" placeholder="Name" name="sett" id='pay' required />
+                        <label for="name" class="form__label">Сумма пополнения</label>
+                    </div>
+                    <div class="form__group field">
+                        <input type="input" class="form__field" autocomplete="off" placeholder="Name" name="name" id='email' required />
+                        <label for="name" class="form__label">email</label>
+                    </div>
+                    <div class="fast-price">
+                        <div class="buttons">
+                            <button class="btn raise" onclick="update(100)">100</button>
+                            <button class="btn raise" onclick="update(200)">200</button>
+                            <button class="btn raise" onclick="update(500)">500</button>
+                            <button class="btn raise" onclick="update(1000)">1000</button>
+                            <button class="btn raise" onclick="update(5000)">5000</button>
+                        </div>
+                    </div>
+                    <div class="form__group" id="check">
+                        <input type="checkbox" id="berries_1" value="strawberries" name="berries">
+                        <label for="berries_1"><p>Я подтверждаю, что верно указал логин Steam аккаунта</p></label>
+                    </div>
+                    <div id="pay-div">
+                        <button id="pay-btn" onclick="pay()">Пополнить баланс</button>
+                    </div>
+                
+            </div>
+        </div>
+            <div id="zxc" class="new_container">
+                <p class="p-margin">Заплатите: <span id="plata" name = "gett">0.00</span> Р</p>
+                <p class="p-margin">Получите на баланс Steam: <span class="" id="">0.00</span> Р</p>
+                <p class="p-margin">Коммисия сервиса: <span class="" id="">0.00</span> Р</p>
+                <p class="p-margin">Банковские издержки: <span class="" id="">0.00</span> Р</p>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="scripts/scrpit.js"></script>
+<script src="scripts/script2.js"></script>
+</html>
